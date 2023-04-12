@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-nav{
+    width: 70px;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+footer{
+    background-color: #c4342b;
+    text-align: center;
+}
+
+a#terminos1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2rem;
+}
+a#terminos2{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2.2rem;
+}
+#icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem
+}
+@media(max-width:426px){
+    footer{
+        background-color: #c4342b;
+        text-align: center;
+        height:15rem;
+        margin-top: 3rem;
+    }
+    a#terminos1{
+        text-decoration: none;
+        color: black;
+        top: 0rem;
+    }a#terminos2{
+        text-decoration: none;
+        color: black;
+        top: 0rem
+    } 
+    #icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem;
+    margin-right: 1rem;
+    } 
+}
