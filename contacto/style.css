@@ -1,7 +1,4 @@
-body {
-    padding-top: 150px;
-}
-
-.logo-nav{
-    width: 70px;
+*{
+    padding: 0;
+    margin: 0;
 }
