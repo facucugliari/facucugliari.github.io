@@ -13,7 +13,7 @@ body{
 
 
 .bgImg{
-    background-image: url(./image.png);
+    background-image: url(./imagenes/image.png);
     background-size: cover;
     min-height: 940px;
     position: relative;
