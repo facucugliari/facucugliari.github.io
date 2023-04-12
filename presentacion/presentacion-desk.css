@@ -1,0 +1,18 @@
+.bg-card1 {
+  background-color: #fdf5dd;
+}
+.bg-card2 {
+  background-color: #dbf9fd;
+}
+.bg-card3 {
+  background-color: #f3c8cc;
+}
+.bg-card4 {
+  background-color: #cdecd4;
+}
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
