@@ -8,29 +8,23 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-image: url(/imagenes/image.png);
+    background-repeat: no-repeat;
 }
+
 
 html {
     height: 100%;
 }
 
 .logo-nav{
-    width: 4rem;
+    width: 6rem;
 }
 
-
-.bgImg{
-    background-image: url(./imagenes/image.png);
-    background-size: cover;
-    min-height: 40rem;
-    position: relative;
-    color: white;
-}
 
 h1 {
     font-size: 4rem;
 }
-
 .texto-h1 {
     position: absolute;
     width: 100%;
@@ -39,13 +33,61 @@ h1 {
     font-family: 'Sedgwick Ave Display', cursive;
     font-weight: 400px;
 }
-footer{
+
+.container{
     background-color: #c4342b;
+    background: rgb(196,52,43);
+    background: radial-gradient(circle, rgba(196,52,43,1) 0%, rgba(85,11,6,1) 100%);
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    border-radius: 1rem;
+    color: white;
+    
+}
+
+p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#inputs{
+    width: 100%;
+    margin:1rem;
+    margin-left: 0.2rem;
+    border-radius: 1rem;
+    border-color: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+button{
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border-radius: 0.2rem;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid white;
+}
+#codigo{
+    margin: 2rem;
+    margin-left: 2rem;
+    height: 8rem;
+    width: 80%;
+    border-radius: 1rem;
+    border: 1px solid white;
     text-align: center;
 }
-#cartas{
-    padding: 0;
-    margin: 0;
+
+
+
+
+
+
+
+
+footer{
+    background-color: #c4342b;
+    text-align: center;    
 }
 a#terminos1{
     text-decoration: none;
