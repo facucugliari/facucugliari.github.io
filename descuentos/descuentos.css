@@ -18,7 +18,7 @@ html {
 }
 
 .logo-nav{
-    width: 6rem;
+    width: 4rem;
 }
 
 
@@ -39,9 +39,10 @@ h1 {
     background: rgb(196,52,43);
     background: radial-gradient(circle, rgba(196,52,43,1) 0%, rgba(85,11,6,1) 100%);
     margin-top: 10rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     border-radius: 1rem;
     color: white;
+    height: fit-content;
     
 }
 
@@ -50,7 +51,7 @@ p{
     margin-left: 1rem;
 }
 
-#inputs{
+#input1,#input2{
     width: 100%;
     margin:1rem;
     margin-left: 0.2rem;
@@ -59,7 +60,8 @@ p{
     border: 1px solid white;
     padding: 0.5rem;
 }
-button{
+.boton{
+    text-align: center;
     margin: 1rem;
     margin-top: 2rem;
     margin-left: 6rem;
@@ -69,13 +71,21 @@ button{
     border: 1px solid white;
 }
 #codigo{
-    margin: 2rem;
+    background-color: white;
+    color:#c4342b;
     margin-left: 2rem;
-    height: 8rem;
+    height: 6rem;
+    padding-top: 9%;
     width: 80%;
     border-radius: 1rem;
     border: 1px solid white;
     text-align: center;
+    
+}
+#validacion{
+width: 100%;
+opacity: 100%;
+border: none;
 }
 
 

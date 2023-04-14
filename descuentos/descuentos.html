@@ -52,26 +52,22 @@
         <div class="container">
           <div class="row">
             <div class="offset-3 col-6 offset-3">
-              <p>Email</p><input type="email" name="    Email" id="inputs">
+              <p>Email</p><input type="email" name="    Email" id="input1">
+              <label value=" " id="validacionEmail"></label>
             </div>
             <div class="offset-3 col-6 offset-3">
-              <p>Teléfono</p><input type="tel" name="    Número" id="inputs">
+              <p>Teléfono</p><input type="number" name="    Número" id="input2">
+              <label value=" " id="validacionTel"></label>
             </div>
-
             <div class="offset-4 col-4 offset-4">
-              <button id="boton">Generar</button>
+              <p class="boton" id="boton">Generar</p>
             </div>
             <div class="offset-4 col-4 offset-4" >
-              <input type="text" id="codigo" value="Código" readonly>
+              <p type="text" id="codigo" value="" readonly></p>
             </div>
           </div>
-        </div>
-
-        
+        </div>      
     </main>
-
-
-
 
 
     
@@ -102,7 +98,7 @@
       </div>
     </footer>
     
-
+    <script src="./descuentos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js "
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>

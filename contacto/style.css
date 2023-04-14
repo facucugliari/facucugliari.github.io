@@ -16,7 +16,7 @@ html {
 }
 
 .logo-nav{
-    width: 70px;
+    width: 4rem;
 }
 
 a#terminos1{
@@ -46,7 +46,9 @@ footer {
     text-align: center;
     margin-top: auto;
 }
-
+#validacionEmail{
+    width: 100%;
+}
 
 @media(max-width:426px){
 
