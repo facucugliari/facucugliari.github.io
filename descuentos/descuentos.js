@@ -43,7 +43,10 @@ function tomarDatos(){
     for(i=0;i<1;i++){ 
         let codigoDesc=array1[i]+'-'+array2[i]+'-'+array3[i]+'-'+array4[i];
         console.log(codigoDesc);
+        localStorage.setItem("vouchers", {voucher:codigoDesc});
         document.getElementById("codigo").innerHTML = codigoDesc;
+        localStorage.getItem("vouchers");
+        console.log(localStorage.getItem("vouchers")[0]);
     }
 }
 }
