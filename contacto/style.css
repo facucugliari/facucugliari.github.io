@@ -84,3 +84,17 @@ footer {
 
 
 /* Fin Global */
+
+
+/* No Global */
+#validacionEmail {
+    color: red;
+    padding-left: 0.7rem ;
+}
+
+.img_form {
+    background-image: url(/imagenes/fb8dd23a-66f9-4278-a3cc-ba4f2ffbfb4d.jpg);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+}
