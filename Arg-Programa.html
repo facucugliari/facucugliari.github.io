@@ -14,12 +14,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <!-- MapBox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css" rel="stylesheet">
+    
 </head>
 <body>
     
   <header> <!-- Nav -->
 
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="/imagenes/fb8dd23a-66f9-4278-a3cc-ba4f2ffbfb4d.jpg" class="logo-nav" alt="logo">
@@ -46,9 +49,9 @@
         </div>
       </nav>
 
-</header>
+  </header>
 
-    <main>
+  <main>
         <div class="bgImg" id="banner">
             
             <div class="texto-h1 d-flex justify-content-center">
@@ -65,7 +68,7 @@
 
         <!-- Banner Movil // Carousel Bootstrap     Problemas: 1-HAY QUE TENER CUIDADO CON EL TAMAÑO DE IMÁGENES   2-Solo si hay interacción se hace auto -->
 
-      <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
 
 
           <div class="carousel-indicators">   <!-- Sirve para los indicadores que están abajo, en el centro de la imagen. Siempre van al inicio del Carousel-->
@@ -153,8 +156,19 @@
           </div>
         </div>
 
-    </main>
+
+
+        
+        <!-- MapBox -->
+        <div id="map" style="height: 400px;"></div>
+  </main>
     
+
+
+
+
+
+    <!-- Footer -->
     <footer>
       <div class="container-fluid">
 
@@ -202,8 +216,8 @@
     
     
     
-    
-    
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js"></script>
+    <script src="Argentina-Programa.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js "
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
