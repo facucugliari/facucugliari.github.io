@@ -22,32 +22,30 @@ function tomarDatos(){
         let aviso = "Ingrese un telefono valido";
         document.getElementById("validacionTel").innerHTML= aviso;
     }
+    
     if(validacion === 2){
-    function num(min,max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.ceil(Math.random()* max);
-    }
-    let i=0;
-    let array1=[], array2=[], array3=[], array4=[];
-    for(i=0;i<1;i++){
-        let res = num(1000,9999);
-        array1.push(res);
-        res = num(1000,9999);
-        array2.push(res);
-        res = num(1000,9999);
-        array3.push(res);
-        res = num(1000,9999);
-        array4.push(res);
-    }
-    for(i=0;i<1;i++){ 
-        let codigoDesc=array1[i]+'-'+array2[i]+'-'+array3[i]+'-'+array4[i];
-        console.log(codigoDesc);
-        localStorage.setItem("vouchers", {voucher:codigoDesc});
-        document.getElementById("codigo").innerHTML = codigoDesc;
-        localStorage.getItem("vouchers");
-        console.log(localStorage.getItem("vouchers")[0]);
-    }
-}
-}
 
+        function num(a, b) {
+            return Math.floor(Math.random() * (b - a + 1)) + a;
+        }
+        
+        function generarCodigo(){
+            return num(1000,9999)+'-'+num(1000,9999)+'-'+num(1000,9999)+'-'+num(1000,9999);
+        }
+        
+        let codigoDesc = generarCodigo(); //genera el código
+        let arrCodigos = localStorage.getItem("codigosUsados") ? JSON.parse(localStorage.getItem("codigosUsados")) : [];
+        
+        while (arrCodigos.includes(codigoDesc)) { 
+            //verifica que no exista hasta el momento. Si ya existe lo genera nuevamente.
+            codigoDesc = generarCodigo();
+        }
+        
+        arrCodigos.unshift(codigoDesc);
+        
+        localStorage.setItem("codigosUsados", JSON.stringify(arrCodigos));
+        document.getElementById("codigo").innerHTML = codigoDesc;
+        console.log(arrCodigos[0]);
+
+}
+}
