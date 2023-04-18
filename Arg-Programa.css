@@ -17,7 +17,9 @@ html {
 .logo-nav{
     width: 4rem;
 }
-
+.slogan{
+    text-align: center;
+}
 .bgImg{
     background-image: url(./imagenes/image.png);
     background-size: cover;
@@ -50,14 +52,15 @@ a#terminos1{
     text-decoration: none;
     color: white;
     position: relative;
-    top: 2rem;
-}
-a#terminos2{
+    top: 2.2rem;
+  }
+  
+  a#terminos2{
     text-decoration: none;
     color: white;
     position: relative;
     top: 2.2rem;
-}
+  }
 #icono{
     width: 2.3rem;
     height: 2.3rem;
@@ -65,6 +68,17 @@ a#terminos2{
     margin-left: 1rem;
     top:2rem
 }
+/* No Global */
+/* Maps */
+#map {
+    height: 400px;
+  }
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+/* No Global */
 @media(max-width:426px){
     footer{
         background-color: #c4342b;
@@ -90,16 +104,48 @@ a#terminos2{
     margin-right: 1rem;
     } 
 }
-
-
-/* No Global */
-/* Maps */
-#map {
-    height: 400px;
-  }
-
-.mapboxgl-popup {
-    max-width: 400px;
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@media (min-width:2559px) {    
+    .bgImg{
+        background-image: url(./imagenes/image.png);
+        background-size: cover;
+        min-height: 70rem;
+        position: relative;
+        color: white;
+    }
+    a#terminos1{
+        text-decoration: none;
+        color: white;
+        top: 2.5rem;
+    }
+    .slogan{
+        font-size: 10rem;
+        text-align: center;
+    }
 }
-/* No Global */
+@media (min-width:767.8px)and (max-width:1024px){
+    a#terminos1{
+        text-decoration: none;
+        color: white;
+        top: 1.6rem;
+    }
+}
+@media (max-width:767.7px){
+    a#terminos1{
+        color: white;
+    }
+    a#terminos2{
+        color: white;
+    }
+    .bgImg{
+        min-height: 22rem;
+        width: 100%;
+    }
+}
+@media (max-width:374.9px){
+    .bgImg{
+        min-height: 20rem;
+        width: 100%;
+    }
+}
+
+

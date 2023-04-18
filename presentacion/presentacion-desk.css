@@ -23,7 +23,7 @@ a#terminos1{
   text-decoration: none;
   color: white;
   position: relative;
-  top: 2rem;
+  top: 2.2rem;
 }
 
 a#terminos2{
@@ -54,7 +54,7 @@ footer {
       background-color: #c4342b;
       text-align: center;
       height:15rem;
-      margin-top: 61rem;
+      margin-top: 5rem;
   }
   a#terminos1{
       text-decoration: none;
@@ -72,12 +72,12 @@ footer {
   margin-left: 1rem;
   top:2rem;
   margin-right: 1rem;
-  } 
+  }
+  #quiemes{
+    margin-top: 0;
+  }
 }
-/* Fin Global */
 
-
-/* No Global */
 
 body {
   background-color: black;
@@ -86,9 +86,15 @@ body {
   margin-top: 6rem;
   background-image: url(/imagenes/image.png);
   background-size: cover;
-  min-height: 45rem;
+  min-height: 35rem;
   position: relative;
   
+}
+#quienes{
+  margin-top: 11rem !important;
+  background-color: #c4342b;
+  opacity: 90%;
+  text-align: center;
 }
 .texto {
   color: white;
@@ -107,14 +113,6 @@ body {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
 .bg-card1 {
   background-color: #fdf5dd;
 }
@@ -132,4 +130,15 @@ body {
   transition: transform 0.5s;
   cursor: pointer;
 }
-/* No Global */
+
+@media (min-width:768px)and (max-width:1025px) {
+  #quienes{
+    margin-top: 7rem !important;
+   
+  }
+}
+@media (max-width:425.1px) {
+  #quienes{
+    margin-top: 2rem !important;
+  }
+}
