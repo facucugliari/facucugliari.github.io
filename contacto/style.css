@@ -50,18 +50,26 @@ footer {
     width: 100%;
 }
 
-@media(max-width:426px){
 
-    /* No Global */
+
+/* Fin Global */
+
+
+/* No Global */
+#validacionEmail {
+    color: red;
+    padding-left: 0.7rem ;
+}
+
+@media(max-width:768px) {
     .container{
-        margin-top: 5rem;
+        margin-top: 12rem;
     }
-
     footer{
         background-color: #c4342b;
         text-align: center;
         height:15rem;
-        margin-top: 61rem;
+        margin-top: 69rem;
     }
     a#terminos1{
         text-decoration: none;
@@ -83,18 +91,34 @@ footer {
 }
 
 
-/* Fin Global */
+@media(max-width:426px){
 
+    /* No Global */
+    .container{
+        margin-top: 8rem;
+    }
 
-/* No Global */
-#validacionEmail {
-    color: red;
-    padding-left: 0.7rem ;
-}
-
-.img_form {
-    background-image: url(/imagenes/fb8dd23a-66f9-4278-a3cc-ba4f2ffbfb4d.jpg);
-    
-    background-position: center center;
-    background-repeat: no-repeat;
+    footer{
+        background-color: #c4342b;
+        text-align: center;
+        height:15rem;
+        margin-top: 58rem;
+    }
+    a#terminos1{
+        text-decoration: none;
+        color: black;
+        top: 0rem;
+    }a#terminos2{
+        text-decoration: none;
+        color: black;
+        top: 0rem
+    } 
+    #icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem;
+    margin-right: 1rem;
+    } 
 }
