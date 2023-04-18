@@ -58,12 +58,12 @@ footer {
   }
   a#terminos1{
       text-decoration: none;
-      color: black;
+      color: white;
       top: 0rem;
   }a#terminos2{
       text-decoration: none;
-      color: black;
-      top: 0rem
+      color: white;
+      top: 0rem;
   } 
   #icono{
   width: 2.3rem;
