@@ -8,9 +8,11 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    
     background-image: url(/imagenes/image.png);
     background-repeat: no-repeat;
-}
+    background-size: cover;
+    }
 
 
 html {
@@ -88,16 +90,10 @@ opacity: 100%;
 border: none;
 }
 
-
-
-
-
-
-
-
 footer{
     background-color: #c4342b;
-    text-align: center;    
+    text-align: center;  
+    margin-top: auto;  
 }
 a#terminos1{
     text-decoration: none;
@@ -118,20 +114,56 @@ a#terminos2{
     margin-left: 1rem;
     top:2rem
 }
+@media (min-width:2559px) {
+
+    #boton{
+        margin-left: 9rem;
+    }
+    #codigo{
+        margin-left: 3rem;
+    }
+}
+@media (min-width:1439px) {
+
+     #boton{
+        margin-left: 9rem;
+    }
+    #codigo{
+        margin-left: 3rem;
+    }
+}
+@media (max-width:1024px) {
+
+    #boton{
+       margin-left: 5rem;
+   }
+   #codigo{
+       margin-left: 2.5rem;
+   }
+}
+@media (max-width:768px) {
+
+    #boton{
+       margin-left: 2rem;
+   }
+   #codigo{
+       margin-left: 1.5rem;
+   }
+}
+
 @media(max-width:426px){
     footer{
         background-color: #c4342b;
         text-align: center;
         height:15rem;
-        margin-top: 3rem;
     }
     a#terminos1{
         text-decoration: none;
-        color: black;
+        color: white;
         top: 0rem;
     }a#terminos2{
         text-decoration: none;
-        color: black;
+        color: white;
         top: 0rem
     } 
     #icono{
@@ -141,5 +173,31 @@ a#terminos2{
     margin-left: 1rem;
     top:2rem;
     margin-right: 1rem;
-    } 
-}
+    }
+    #boton{
+        margin-left: -1rem;
+    }
+    #codigo{
+        margin-left: -0.9rem;
+        width: 10rem;
+    }
+ }
+ @media(max-width:375px){
+    #boton{
+        margin-left: -2rem;
+    }
+    #codigo{
+        margin-left: -5rem;
+        width: 16rem;
+    }
+    #input1{
+        margin-left: -3rem;
+        width: 16rem;
+    }
+    #input2{
+        margin-left: -3rem;
+        width: 16rem;
+    }
+ }
+
+
