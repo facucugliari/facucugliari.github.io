@@ -52,6 +52,7 @@
   </header>
 
   <main>
+      
         <div class="bgImg" id="banner">
             
             <div class="texto-h1 d-flex justify-content-center">
@@ -68,94 +69,119 @@
 
         <!-- Banner Movil // Carousel Bootstrap     Problemas: 1-HAY QUE TENER CUIDADO CON EL TAMAÑO DE IMÁGENES   2-Solo si hay interacción se hace auto -->
 
-        <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="container  contenedor_carousel">
 
-
-          <div class="carousel-indicators">   <!-- Sirve para los indicadores que están abajo, en el centro de la imagen. Siempre van al inicio del Carousel-->
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div id="carouselExampleAutoplaying" class="carousel slide  mt-5" data-bs-ride="carousel">
+  
+  
+            <div class="carousel-indicators">   <!-- Sirve para los indicadores que están abajo, en el centro de la imagen. Siempre van al inicio del Carousel-->
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+  
+            <div class="carousel-inner">   <!-- Lugar donde van las Imágenes -->
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./Imagenes Carousel/hamb.jpg" class="d-block w-100" alt="Hamburguesa 1">
+                <div class="carousel-caption d-none d-md-block">   <!-- Con esto Podremos poner Textos a las Imágenes. Nos sirve para la descripción de la promo-->
+                  <h4>Promociones Destacadas</h4>
+                  <p> Doble Dosis </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./Imagenes Carousel/hamb1.jpg" class="d-block w-100" alt="Hamburguesa 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Promociones Destacadas</h4>
+                  <p> La Clásica </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./Imagenes Carousel/hamb3.jpg" class="d-block w-100" alt="Hamburguesa 3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Promociones Destacadas</h4>
+                  <p> La Vikinga </p>
+                </div>
+              </div>
+            </div>
+  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"> <!-- Boton Anterior -->
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"> Anterior </span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"> <!-- Boton Siguiente -->
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"> Siguiente </span>
+            </button>
+  
           </div>
-
-          <div class="carousel-inner">   <!-- Lugar donde van las Imágenes -->
-            <div class="carousel-item active" data-bs-interval="2000">
-              <img src="https://s1.1zoom.me/b5050/558/Hamburger_Fast_food_Buns_Closeup_595677_1920x1080.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">   <!-- Con esto Podremos poner Textos a las Imágenes. Nos sirve para la descripción de la promo-->
-                <h5>First slide label</h5>
-                <p> Texto 1</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="https://media01.stockfood.com/largepreviews/NDE0NTQyMjMw/13372330-Burger-with-cheese-and-lettuce-against-a-black-background.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p> Texto 2 </p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="https://burgermeistermia.com/wp-content/uploads/2022/08/Top-Burger-Spots-in-the-World-Outside-the-U.S.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p> Texto 3</p>
-              </div>
-            </div>
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"> <!-- Boton Anterior -->
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"> Anterior </span>
-          </button>
-
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"> <!-- Boton Siguiente -->
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"> Siguiente </span>
-          </button>
-
         </div>
 
 
 
         <!-- Cards // Menu de Empresa -->
+        <div class="container">
+          <div>
+            <h4 class="menu"> Menú: </h4>
+          </div>
 
-        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5" id="cartas">
-          <div class="col">
-            <div class="card">
-              <img src="https://burgermeistermia.com/wp-content/uploads/2022/08/Top-Burger-Spots-in-the-World-Outside-the-U.S.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"> Promo 1 </h5>
-                <p class="card-text"> Descripción del menu a presentar </p>
+          <div class="row row-cols-2 row-cols-md-3 g-4 mb-5">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb.jpg" class="card-img-top" alt="Hamburguesa 1">
+                <div class="card-body">
+                  <h5 class="card-title"> Doble Dosis </h5>
+                  <p class="card-text"> Doble medallon de carne. Lechuga, tomate, cebolla caramelizada y queso. Incluye papas.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://burgermeistermia.com/wp-content/uploads/2022/08/Top-Burger-Spots-in-the-World-Outside-the-U.S.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"> Promo 1 </h5>
-                <p class="card-text"> Descripción del menu a presentar </p>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb1.jpg" class="card-img-top" alt="Hamburguesa 2">
+                <div class="card-body">
+                  <h5 class="card-title"> La Clásica </h5>
+                  <p class="card-text"> Pan con semillas. Medallon de carne con adheridos. Incluye papas. </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://burgermeistermia.com/wp-content/uploads/2022/08/Top-Burger-Spots-in-the-World-Outside-the-U.S.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"> Promo 1 </h5>
-                <p class="card-text"> Descripción del menu a presentar </p>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb3.jpg" class="card-img-top" alt="Hamburguesa 3">
+                <div class="card-body">
+                  <h5 class="card-title"> La Vikinga </h5>
+                  <p class="card-text"> Medallon XL casero. Queso Cheddar, con cebolla y lechuga. Incluye papas. </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://burgermeistermia.com/wp-content/uploads/2022/08/Top-Burger-Spots-in-the-World-Outside-the-U.S.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"> Promo 1 </h5>
-                <p class="card-text"> Descripción del menu a presentar </p>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb2.jpg" class="card-img-top" alt="Hamburguesa 4">
+                <div class="card-body">
+                  <h5 class="card-title"> La Solitaria </h5>
+                  <p class="card-text"> Pan con semillas. Medallon XL casero, con adheridos. No incluye papas. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb4.jpg" class="card-img-top" alt="Hamburguesa 5">
+                <div class="card-body">
+                  <h5 class="card-title"> La bestia </h5>
+                  <p class="card-text"> Doble medallon de carne. Queso, tomate y lechuga. Incluye papas. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Imagenes Carousel/hamb5.jpg" class="card-img-top" alt="Hamburguesa 6">
+                <div class="card-body">
+                  <h5 class="card-title"> La BBQ Ranch </h5>
+                  <p class="card-text"> Medallon de carne, con lechuga, palta, tomate y queso. Incluye papas. </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
 
 
         

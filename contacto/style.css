@@ -61,23 +61,20 @@ footer {
     padding-left: 0.7rem ;
 }
 
-@media(max-width:768px) {
-    .container{
-        margin-top: 12rem;
-    }
+@media(max-width:768px) {                               /*Queda Arreglar*/
+    
     footer{
         background-color: #c4342b;
         text-align: center;
-        height:15rem;
-        margin-top: 69rem;
+        margin-top: 49.4rem;
     }
     a#terminos1{
         text-decoration: none;
-        color: black;
+        color: white;
         top: 0rem;
     }a#terminos2{
         text-decoration: none;
-        color: black;
+        color: white;
         top: 0rem
     } 
     #icono{
@@ -91,34 +88,30 @@ footer {
 }
 
 
-@media(max-width:426px){
-
-    /* No Global */
-    .container{
-        margin-top: 8rem;
+@media(max-width:425px) {
+    .container {
+        margin-top: 7rem;
     }
-
     footer{
-        background-color: #c4342b;
-        text-align: center;
-        height:15rem;
-        margin-top: 58rem;
+        margin-top: 64rem;
+        height: 15rem;
     }
-    a#terminos1{
-        text-decoration: none;
-        color: black;
-        top: 0rem;
-    }a#terminos2{
-        text-decoration: none;
-        color: black;
-        top: 0rem
-    } 
-    #icono{
-    width: 2.3rem;
-    height: 2.3rem;
-    position: relative;
-    margin-left: 1rem;
-    top:2rem;
-    margin-right: 1rem;
-    } 
+}
+
+@media(max-width:375px) {
+    .container {
+        margin-top: 5rem;
+    }
+    footer{
+        margin-top: 60rem;
+    }
+}
+
+@media(max-width:320px) {
+    .container {
+        margin-top: 4rem;
+    }
+    footer{
+        margin-top: 57rem;
+    }
 }

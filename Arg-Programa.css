@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-color: rgb(243, 239, 239);
 }
 
 html {
@@ -70,6 +71,12 @@ a#terminos1{
 }
 /* No Global */
 /* Maps */
+
+.menu {
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+    color: grey;
+}
 #map {
     height: 400px;
   }
