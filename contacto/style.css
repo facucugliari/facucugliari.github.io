@@ -61,12 +61,29 @@ footer {
     padding-left: 0.7rem ;
 }
 
-@media(max-width:768px) {                               /*Queda Arreglar*/
-    
+@media(min-width:768px)and (max-width:1023.9px) {
+    .card-img{
+
+        margin: 3.5rem 0rem 0 1.3rem; 
+        padding: 0.1rem;
+        background-position: center;
+    }
+   
+}
+
+
+@media(max-width:426px){
+
+    /* No Global */
+    .container{
+        margin-top: -5rem;
+    }
+
     footer{
         background-color: #c4342b;
         text-align: center;
-        margin-top: 49.4rem;
+        height:15rem;
+        margin-top: auto;
     }
     a#terminos1{
         text-decoration: none;
@@ -85,33 +102,4 @@ footer {
     top:2rem;
     margin-right: 1rem;
     } 
-}
-
-
-@media(max-width:425px) {
-    .container {
-        margin-top: 7rem;
-    }
-    footer{
-        margin-top: 64rem;
-        height: 15rem;
-    }
-}
-
-@media(max-width:375px) {
-    .container {
-        margin-top: 5rem;
-    }
-    footer{
-        margin-top: 60rem;
-    }
-}
-
-@media(max-width:320px) {
-    .container {
-        margin-top: 4rem;
-    }
-    footer{
-        margin-top: 57rem;
-    }
 }
