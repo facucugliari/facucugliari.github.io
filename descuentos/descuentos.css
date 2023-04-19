@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    background-image: url(/imagenes/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+html {
+    height: 100%;
+}
+
+.logo-nav{
+    width: 4rem;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+.texto-h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 95px ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400px;
+}
+
+.container{
+    background-color: #c4342b;
+    background: rgb(196,52,43);
+    background: radial-gradient(circle, rgba(196,52,43,1) 0%, rgba(85,11,6,1) 100%);
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+    color: white;
+    height: fit-content;
+    
+}
+
+p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#input1,#input2{
+    width: 100%;
+    margin:1rem;
+    margin-left: 0.2rem;
+    border-radius: 1rem;
+    border-color: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+.boton{
+    text-align: center;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border-radius: 0.2rem;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid white;
+}
+#codigo{
+    background-color: white;
+    color:#c4342b;
+    margin-left: 2rem;
+    height: 6rem;
+    padding-top: 9%;
+    width: 80%;
+    border-radius: 1rem;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+#validacion{
+width: 100%;
+opacity: 100%;
+border: none;
+}
+
+footer{
+    background-color: #c4342b;
+    text-align: center;  
+    margin-top: auto;  
+}
+a#terminos1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2rem;
+}
+a#terminos2{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2.2rem;
+}
+#icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem
+}
+@media (min-width:2559px) {
+
+    #boton{
+        margin-left: 9rem;
+    }
+    #codigo{
+        margin-left: 3rem;
+    }
+}
+@media (min-width:1439px) {
+
+     #boton{
+        margin-left: 9rem;
+    }
+    #codigo{
+        margin-left: 3rem;
+    }
+}
+@media (max-width:1024px) {
+
+    #boton{
+       margin-left: 5rem;
+   }
+   #codigo{
+       margin-left: 2.5rem;
+   }
+}
+@media (max-width:768px) {
+
+    #boton{
+       margin-left: 2rem;
+   }
+   #codigo{
+       margin-left: 1.5rem;
+   }
+}
+
+@media(max-width:426px){
+    footer{
+        background-color: #c4342b;
+        text-align: center;
+        height:15rem;
+    }
+    a#terminos1{
+        text-decoration: none;
+        color: white;
+        top: 0rem;
+    }a#terminos2{
+        text-decoration: none;
+        color: white;
+        top: 0rem
+    } 
+    #icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem;
+    margin-right: 1rem;
+    }
+    #boton{
+        margin-left: -1rem;
+    }
+    #codigo{
+        margin-left: -0.9rem;
+        width: 10rem;
+    }
+ }
+ @media(max-width:375px){
+    #boton{
+        margin-left: -2rem;
+    }
+    #codigo{
+        margin-left: -5rem;
+        width: 16rem;
+    }
+    #input1{
+        margin-left: -3rem;
+        width: 16rem;
+    }
+    #input2{
+        margin-left: -3rem;
+        width: 16rem;
+    }
+ }
+
+

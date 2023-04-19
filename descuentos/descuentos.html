@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="/descuentos/descuentos.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <header> <!-- Nav -->
+
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/imagenes/fb8dd23a-66f9-4278-a3cc-ba4f2ffbfb4d.jpg" class="logo-nav" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Arg-Programa.html"> Inicio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/presentacion/presentacion-desk.html"> Presentación </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/descuentos/descuentos.html"> Descuentos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contacto/contacto-desk.html"> Contacto </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+</header>
+
+    <main>
+        <div class="container">
+          <div class="row">
+            <div class="offset-3 col-6 offset-3">
+              <p>Email</p><input type="email" name="    Email" id="input1">
+              <label value=" " id="validacionEmail"></label>
+            </div>
+            <div class="offset-3 col-6 offset-3">
+              <p>Teléfono</p><input type="number" name="    Número" id="input2">
+              <label value=" " id="validacionTel"></label>
+            </div>
+            <div class="offset-4 col-4 offset-4">
+              <p class="boton" id="boton">Generar</p>
+            </div>
+            <div class="offset-4 col-4 offset-4" >
+              <p type="text" id="codigo" value="" readonly></p>
+            </div>
+          </div>
+        </div>      
+    </main>
+
+
+    
+    <footer>
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
+            <a href="#" id="terminos1">TERMINO Y CONDICIONES</a>
+          </div>
+
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">  
+            <a href="#" id="terminos2">COPYRIGTH</a>
+          </div>
+
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img src="/imagenes/fb8dd23a-66f9-4278-a3cc-ba4f2ffbfb4d.jpg" width="100rem" height="100rem">
+          </div>
+          
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img src="/imagenes/facebook.png" id="icono">
+            <img src="/imagenes/linkedin.png" id="icono">
+            <img src="/imagenes/twiter.png" id="icono">
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    
+    <script src="./descuentos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js "
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+</body>
+</html>
