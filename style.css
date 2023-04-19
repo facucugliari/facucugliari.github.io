@@ -1,0 +1,105 @@
+/* inicio Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.logo-nav{
+    width: 4rem;
+}
+
+a#terminos1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2rem;
+}
+
+a#terminos2{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 2.2rem;
+}
+
+#icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem
+}
+
+footer {
+    background-color: #c4342b;
+    text-align: center;
+    margin-top: auto;
+}
+#validacionEmail{
+    width: 100%;
+}
+
+
+
+/* Fin Global */
+
+
+/* No Global */
+#validacionEmail {
+    color: red;
+    padding-left: 0.7rem ;
+}
+
+@media(min-width:768px)and (max-width:1023.9px) {
+    .card-img{
+
+        margin: 3.5rem 0rem 0 1.3rem; 
+        padding: 0.1rem;
+        background-position: center;
+    }
+   
+}
+
+
+@media(max-width:426px){
+
+    /* No Global */
+    .container{
+        margin-top: -5rem;
+    }
+
+    footer{
+        background-color: #c4342b;
+        text-align: center;
+        height:15rem;
+        margin-top: auto;
+    }
+    a#terminos1{
+        text-decoration: none;
+        color: white;
+        top: 0rem;
+    }a#terminos2{
+        text-decoration: none;
+        color: white;
+        top: 0rem
+    } 
+    #icono{
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left: 1rem;
+    top:2rem;
+    margin-right: 1rem;
+    } 
+}
