@@ -16,7 +16,8 @@ html {
 }
 
 .logo-nav{
-  width: 72px;
+  width: 4rem;
+  border-radius: 50%;
 }
 
 a#terminos1{
